@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-300: #D8BA98;
+  --color-primary-200:#e2d2ba;
+  --color-primary-100: #f1ebe0;
+  --color-secondary: #45291B;
+  --color-tertiary: #bb6c21;
+
+  --spacing-custon-width: 90vw;
+}
+
+h2 {
+  @apply text-4xl font-bold text-center;
+}
+
+.md-link {
+  @apply hover:bg-amber-900/15 text-amber-950 px-3 py-2 rounded-md text-lg font-bold transition duration-300 ease-in-out;
+}
+
+.sm-link {
+  @apply hover:bg-amber-900/15 text-amber-950 block px-3 py-2 rounded-md text-base font-bold transition duration-300 ease-in-out
+}
+
+.feature {
+  @apply min-w-60 flex flex-col items-center gap-2 py-4 md:py-4 lg:py-0;
+}
+
+.feature > img {
+  @apply h-18;
+}
+
+.feature > h3 {
+  @apply text-2xl font-bold;
+}
+
+.feature > p {
+  @apply text-center mx-10;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
