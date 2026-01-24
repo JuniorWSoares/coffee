@@ -38,6 +38,32 @@ h2 {
   @apply text-center mx-10;
 }
 
+.card {
+  @apply 
+    min-w-88 min-h-120 flex flex-col gap-6 items-center py-6 rounded-2xl
+    bg-white shadow-lg
+}
+
+.card > img {
+  @apply w-80 h-80 object-cover rounded-2xl;
+}
+
+.content {
+  @apply w-[80%] h-[100%] space-y-6;
+}
+
+.content h3{
+  @apply text-2xl text-center;
+}
+
+.content > div {
+  @apply flex justify-between items-center font-bold text-lg;
+}
+
+.content img {
+  @apply h-10 cursor-pointer;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;

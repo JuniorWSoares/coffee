@@ -27,7 +27,7 @@ export const AboutUs: React.FC = () => {
             </Button>
           </span>
         </div>
-        <div className="h-125 lg:h-full md:w-full bg-[url('/cappuchino-4.jpg')] bg-cover bg-center relative">
+        <div className="h-125 lg:h-full md:w-full bg-[url('/cappuchino-mao.jpg')] bg-cover bg-center relative">
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
       </div>
