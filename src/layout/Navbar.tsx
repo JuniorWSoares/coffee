@@ -36,7 +36,7 @@ export const Navbar: React.FC = () => {
           <div className="hidden md:block">
             <div className="ml:10 flex items-baseline space-x-8 transition duration-300">
               <a href="#home" className="md-link">Home</a>
-              <a href="#menu" className="md-link">Cardápio</a>
+              <a href="#gallery" className="md-link">Cardápio</a>
               <a href="#about-us" className="md-link">Sobre Nós</a>
               <a href="#contact" className="md-link">Contato</a>
             </div>
@@ -59,7 +59,7 @@ export const Navbar: React.FC = () => {
       `}>
         <div className="px-2 pt-2 pb-3 sm:px-3">
           <a href="#home" onClick={() => setMenuOpen(false)} className="sm-link">Home</a>
-          <a href="#menu" onClick={() => setMenuOpen(false)} className="sm-link">Cardápio</a>
+          <a href="#gallery" onClick={() => setMenuOpen(false)} className="sm-link">Cardápio</a>
           <a href="#about-us" onClick={() => setMenuOpen(false)} className="sm-link">Sobre Nós</a>
           <a href="#contact" onClick={() => setMenuOpen(false)} className="sm-link">Contato</a>
         </div>

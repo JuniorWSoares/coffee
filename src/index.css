@@ -10,6 +10,17 @@
   --spacing-custon-width: 90vw;
 }
 
+head{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h2 {
   @apply text-4xl font-bold text-center;
 }
@@ -41,7 +52,7 @@ h2 {
 .card {
   @apply 
     min-w-88 min-h-120 flex flex-col gap-6 items-center py-6 rounded-2xl
-    bg-white shadow-lg
+    bg-white shadow-lg hover:scale-103 transition-all duration-300 ease-in-out;
 }
 
 .card > img {
@@ -62,12 +73,4 @@ h2 {
 
 .content img {
   @apply h-10 cursor-pointer;
-}
-
-body {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  scroll-behavior: smooth;
 }

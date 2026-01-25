@@ -3,7 +3,7 @@ import { Button } from "../components/Button";
 
 export const AboutUs: React.FC = () => {
   return (
-    <section className="h-fit lg:grid lg:grid-cols-3">
+    <section id="about-us" className="h-fit lg:grid lg:grid-cols-3">
       <div className="lg:grid lg:grid-cols-2 items-center bg-secondary col-span-2 lg:pl-20">
         <div className=" text-white py-15 px-5 flex flex-col gap-5">
           <h2 className="mb-3">
