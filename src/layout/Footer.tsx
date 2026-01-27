@@ -15,18 +15,18 @@ export const Footer:React.FC = () => {
                 <div>
                     <h3 className="text-xl font-bold mb-5">Informações da Empresa</h3>
                     <div className="flex flex-col items-center md:items-start  gap-4 text-lg">
-                        <a href="#" className="hover:text-secondary hover:font-semibold">Sobre Nós</a>
-                        <a href="#" className="hover:text-secondary hover:font-semibold">Contate-nos</a>
-                        <a href="#" className="hover:text-secondary hover:font-semibold">Suporte</a>
+                        <a href="#about-us" className="hover:text-secondary hover:font-semibold">Sobre Nós</a>
+                        <a href="#about-us" className="hover:text-secondary hover:font-semibold">Contate-nos</a>
+                        <a href="#about-us" className="hover:text-secondary hover:font-semibold">Suporte</a>
                     </div>
                 </div>
 
                 <div className="text-center">
                     <h3 className="text-xl font-bold mb-5">Siga-nos</h3>
                     <div className="flex gap-5 justify-center md:justify-start">
-                        <a href="#"><img src="/assets/instagram.png" className="w-9 h-9" alt="" /></a>
-                        <a href="#"><img src="/assets/facebook.png" className="w-9 h-9"  alt="" /></a>
-                        <a href="#"><img src="/assets/linkedin.png" className="w-9 h-9"  alt="" /></a>
+                        <a href="https://www.instagram.com/junnior_ws/" target="_blank"><img src="/assets/instagram.png" className="w-9 h-9" alt="" /></a>
+                        <a href="https://github.com/JuniorWSoares"  target="_blank"><img src="/assets/github.png" className="w-9 h-9"  alt="" /></a>
+                        <a href="https://www.linkedin.com/in/j%C3%BAnior-soares-b5a869354/"  target="_blank"><img src="/assets/linkedin.png" className="w-9 h-9"  alt="" /></a>
                     </div>
                 </div>
             </div>
