@@ -24,6 +24,9 @@ Este projeto não possui fins comerciais. Ele foi criado apenas para:
 <p align="center">
   <img src="./public/assets/preview.png" alt="Preview do projeto Coffee" width="600"/>
   <img src="./public/assets/preview2.png" alt="Preview do projeto Coffee" width="600"/>
+  <img src="./public/assets/preview3.png" alt="Preview do projeto Coffee" width="600"/>
+  <img src="./public/assets/preview4.png" alt="Preview do projeto Coffee" width="600"/>
+  <img src="./public/assets/preview5.png" alt="Preview do projeto Coffee" width="600"/>
 </p>
 
 
